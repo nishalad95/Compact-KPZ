@@ -57,14 +57,15 @@ void calcPhase(mat &theta) {
 		initializeNoise(noise);
 		for (int j = 0; j < S; j++) {
 			for (int k = 0; k < S; k++) {
-				double diffX = -D[0]*(sin(theta[j][k] - theta[j][pmod(k+1)])
-									  + sin(theta[j][k] - theta[j][pmod(k-1)]));
-				double diffY = -D[1]*(sin(theta[j][k] - theta[pmod(j+1)][k])
-									  + sin(theta[j][k] - theta[pmod(j-1)][k]));
-				double nonLinX = -LAMBDA[0]*0.5*(cos(theta[j][k] - theta[j][pmod(k+1)])
-												 + cos(theta[j][k] - theta[j][pmod(k-1)]));
-				double nonLinY = -LAMBDA[1]*0.5*(cos(theta[j][k] - theta[pmod(j+1)][k])
-												 + cos(theta[j][k] - theta[pmod(j-1)][k]));
+				double XPlus = theta[j][k] - theta[j][pmod(k+1)];
+				double XMinus = theta[j][k] - theta[j][pmod(k-1)];
+				double YPlus = theta[j][k] - theta[pmod(j+1)][k];
+				double YMinus = theta[j][k] - theta[pmod(j-1)][k];
+
+				double diffX = -D[0]*(sin(XPlus) + sin(XMinus));
+				double diffY = -D[1]*(sin(YPlus) + sin(YMinus));
+				double nonLinX = -LAMBDA[0]*0.5*(cos(XPlus) + cos(XMinus));
+				double nonLinY = -LAMBDA[1]*0.5*(cos(YPlus) + cos(YMinus));
 
 				current[j][k] = DT*(theta[j][k] + diffX + diffY + nonLinX + nonLinY + noise[j][k]);
 			}
