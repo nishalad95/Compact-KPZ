@@ -13,35 +13,27 @@
 #include <random>
 #include <cstdio>
 #include <array>
+#include <math.h>
 
 double D[2] = {1.0,1.0};			// {Dx, Dy}
 double LAMBDA[2] = {1.0, 1.0};		// {Lx, Ly}
 const int N = 1;					// monte-carlo iterations
 const int S = 4;					// size of lattice - currently code assumes square S x S matrix
 double DT = 0.5;					// time increment
+const double CL = 0.0;					// "temperature" of the system
+const double PI  =3.141592653589793238463;
 
 typedef std::array<std::array<double,S>,S> mat;		// matrix definition
 
-void initializeTheta(mat &theta) {
+void initializeMatrix(mat &theta, bool n) {
 	//std::random_device rd;
 	//std::mt19937 gen(rd());
 	//std::uniform_real_distribution<> dis(0, 1);
 	for(int i = 0; i < S; i++) {
 		for (int j = 0; j < S; j++) {
-			//theta[i][j] = dis(gen);
 			theta[i][j] = 0.5;
-		}
-	}
-}
-
-void initializeNoise(mat &noise) {
-	//std::random_device rd;
-	//std::mt19937 gen(rd());
-	//std::uniform_real_distribution<> dis(0, 1);
-	for(int i = 0; i < S; i++) {
-		for(int j = 0; j < S; j++) {
-			//noise[i][j] = dis(gen);
-			noise[i][j] = 0.0;
+			//theta[i][j] = dis(gen);
+			if (n) { theta[i][j] *= 2.0*PI*CL; }
 		}
 	}
 }
@@ -54,7 +46,7 @@ inline int pmod(int i, int n = S) {
 void calcPhase(mat &theta) {
 	mat noise, current;
 	for (int i=0; i<N; i++) {
-		initializeNoise(noise);
+		initializeMatrix(noise, true); // TODO: cl for loop
 		for (int j = 0; j < S; j++) {
 			for (int k = 0; k < S; k++) {
 				double XPlus = theta[j][k] - theta[j][pmod(k+1)];
@@ -64,10 +56,11 @@ void calcPhase(mat &theta) {
 
 				double diffX = -D[0]*(sin(XPlus) + sin(XMinus));
 				double diffY = -D[1]*(sin(YPlus) + sin(YMinus));
-				double nonLinX = -LAMBDA[0]*0.5*(cos(XPlus) + cos(XMinus));
-				double nonLinY = -LAMBDA[1]*0.5*(cos(YPlus) + cos(YMinus));
+				double nonLinX = -LAMBDA[0]*(cos(XPlus) + cos(XMinus));
+				double nonLinY = -LAMBDA[1]*(cos(YPlus) + cos(YMinus));
 
-				current[j][k] = DT*(theta[j][k] + diffX + diffY + nonLinX + nonLinY + noise[j][k]);
+				current[j][k] = DT*(theta[j][k] + diffX + diffY + nonLinX + nonLinY + noise[j][k] +LAMBDA[0] + LAMBDA[1]);
+				current[j][k] = fabs(fmod(current[j][k],2.0*PI));
 			}
 		}
 		std::swap(current, theta);
@@ -77,8 +70,10 @@ void calcPhase(mat &theta) {
 int main() {
 	printf("Running compact KPZ: \n");
 	mat theta;
-	initializeTheta(theta);
+	initializeMatrix(theta, false);
 
+	printf("Number of iterations = %d \n", N);
+	printf("Noise = 0.0 \n");
 	printf("Initial theta values: \n");
 	for (int i = 0; i < S; i++) {
 		for (int j = 0; j < S; j++) {
