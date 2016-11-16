@@ -3,5 +3,5 @@ project(KPZ_Compact)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES main.cpp)
-add_executable(KPZ_Compact ${SOURCE_FILES})
+set(SOURCE_FILES main.cpp energy.h energy.cpp)
+add_executable(KPZ_Compact ${SOURCE_FILES} energy.h energy.cpp)

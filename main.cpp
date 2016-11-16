@@ -14,12 +14,12 @@
 #include <cstdio>
 #include <array>
 #include <math.h>
+#include "energy.h"
 
 double D[2] = {1.0,1.0};			// {Dx, Dy}
 double LAMBDA[2] = {1.0, 1.0};		// {Lx, Ly}
 const int N = 1;					// monte-carlo iterations
-const int S = 4;					// size of lattice - currently code assumes square S x S matrix
-double DT = 0.5;					// time increment
+double DT = 0.05;					// time increment
 const double CL = 0.0;					// "temperature" of the system
 const double PI  =3.141592653589793238463;
 
@@ -43,10 +43,10 @@ inline int pmod(int i, int n = S) {
 	return (i % n + n) % n;
 }
 
-void calcPhase(mat &theta) {
+void calcPhase(mat &theta, double ener[]) {
 	mat noise, current;
 	for (int i=0; i<N; i++) {
-		initializeMatrix(noise, true); // TODO: cl for loop
+		initializeMatrix(noise, true);
 		for (int j = 0; j < S; j++) {
 			for (int k = 0; k < S; k++) {
 				double XPlus = theta[j][k] - theta[j][pmod(k+1)];
@@ -54,21 +54,24 @@ void calcPhase(mat &theta) {
 				double YPlus = theta[j][k] - theta[pmod(j+1)][k];
 				double YMinus = theta[j][k] - theta[pmod(j-1)][k];
 
-				double diffX = -D[0]*(sin(XPlus) + sin(XMinus));
-				double diffY = -D[1]*(sin(YPlus) + sin(YMinus));
-				double nonLinX = -LAMBDA[0]*(cos(XPlus) + cos(XMinus));
-				double nonLinY = -LAMBDA[1]*(cos(YPlus) + cos(YMinus));
+				double diffX = D[0]*(sin(XPlus) + sin(XMinus));
+				double diffY = D[1]*(sin(YPlus) + sin(YMinus));
+				double nonLinX = LAMBDA[0]*(cos(XPlus) + cos(XMinus));
+				double nonLinY = LAMBDA[1]*(cos(YPlus) + cos(YMinus));
 
-				current[j][k] = DT*(theta[j][k] + diffX + diffY + nonLinX + nonLinY + noise[j][k] +LAMBDA[0] + LAMBDA[1]);
+				current[j][k] = theta[j][k] - DT*(diffX + diffY + nonLinX + nonLinY + noise[j][k] - LAMBDA[0] - LAMBDA[1]);
 				current[j][k] = fabs(fmod(current[j][k],2.0*PI));
 			}
 		}
+		energy e; // create an object for my energy class
+		ener[i] = e.calcEnergy(current, D);
 		std::swap(current, theta);
 	}
 }
 
 int main() {
 	printf("Running compact KPZ: \n");
+	double ener[N];
 	mat theta;
 	initializeMatrix(theta, false);
 
@@ -82,7 +85,7 @@ int main() {
 		printf("\n");
 	}
 
-	calcPhase(theta);
+	calcPhase(theta, ener);
 
 	printf("Final theta values: \n");
 	for (int i = 0; i < S; i++) {
@@ -91,6 +94,12 @@ int main() {
 		}
 		printf("\n");
 	}
+
+	printf("Energy values: \n");
+	for (int j = 0; j < N; j++) {
+		printf("%.5f ", ener[j]);
+	}
+	printf("\n");
 
 	// TODO: plot graph of time against phase (thetaF)
 
