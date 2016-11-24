@@ -27,22 +27,23 @@ double Dx = 1.0;
 double Dy = 1.0;
 double Lx = 0.0;
 double Ly = 0.0;
-const int N = 100;					// monte-carlo iterations
-const int R = 1;					// number of stochastic realisations
+const int N = 250;					// monte-carlo iterations
+const int R = 10;					// number of stochastic realisations
 double dt = 0.05;					// time increment
-const double CL = 0.0;				// "temperature" of the system
+const double CL = 3.0;				// "temperature" of the system
 
 random_device rd;
 mt19937 gen(rd());
 
 typedef std::array<std::array<double,S>,S> mat;		// matrix definition
 
-void initializeMatrix(mat &theta, bool n, uniform_real_distribution<> &dis,
-					  mt19937 &gen, uniform_real_distribution<> &r_i) {
+void initializeMatrix(mat &theta, mt19937 &gen, bool noise = false) {
+	uniform_real_distribution<> dis(0,2*M_PI);
+	uniform_real_distribution<> disNoise(-0.5,0.5);
 	for(int i = 0; i < S; i++) {
 		for (int j = 0; j < S; j++) {
-			theta[i][j] = dis(gen);
-			if (n) { theta[i][j] *= CL*r_i(gen); }
+			if (noise) { theta[i][j] = 2.0*M_PI*CL*disNoise(gen); }
+			else { theta[i][j] = dis(gen); }
 		}
 	}
 }
@@ -80,7 +81,7 @@ void calcPhase(mat &theta, double *ener, double *vortexNum, uniform_real_distrib
 			   mt19937 &gen, uniform_real_distribution<> &r_i) {
 	mat noise, current;
 	for (int i=0; i<N; i++) {
-		initializeMatrix(noise, true, dis, gen, r_i);
+		initializeMatrix(noise, gen, true);
 		for (int j = 0; j < S; j++) {
 			for (int k = 0; k < S; k++) {
 				double XPlus = theta[j][k] - theta[j][pmod(k+1)];
@@ -136,7 +137,7 @@ void runKPZEquation() {
 		double ener[N];
 		double vortexNum[N];
 		mat theta;
-		initializeMatrix(theta, false, dis, gen, r_i);        // initialize theta init
+		initializeMatrix(theta, gen);        // initialize theta init
 		//printf("Initial theta values: \n");
 		//for (int i = 0; i < S; i++) {
 		//	for (int j = 0; j < S; j++) {
