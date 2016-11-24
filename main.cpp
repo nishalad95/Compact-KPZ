@@ -68,17 +68,16 @@ double calcNumVortices(mat &theta) {
 	double num = 0.0;
 	for (int j = 0; j < S; j++) {
 		for (int k = 0; k < S; k++) {
-			num += fabs(theta[j][k] - theta[pmod(j-1)][k]
-						+ theta[pmod(j-1)][pmod(k)] - theta[pmod(j-1)][pmod(k-1)]
-						+ theta[pmod(j-1)][pmod(k-1)] - theta[pmod(j)][pmod(k-1)]
-						+ theta[pmod(j)][pmod(k-1)] - theta[j][k]);
+			num += (theta[j][k] - theta[pmod(j-1)][k])
+						+ (theta[pmod(j-1)][pmod(k)] - theta[pmod(j-1)][pmod(k-1)])
+						+ (theta[pmod(j-1)][pmod(k-1)] - theta[pmod(j)][pmod(k-1)])
+						+ (theta[pmod(j)][pmod(k-1)] - theta[j][k]);
 		}
 	}
 	return num;
 }
 
-void calcPhase(mat &theta, double *ener, double *vortexNum, uniform_real_distribution<> &dis,
-			   mt19937 &gen, uniform_real_distribution<> &r_i) {
+void calcPhase(mat &theta, double *ener, double *vortexNum, mt19937 &gen) {
 	mat noise, current;
 	for (int i=0; i<N; i++) {
 		initializeMatrix(noise, gen, true);
@@ -128,48 +127,17 @@ void outputToFile(double arr[], string filename) {
 
 
 void runKPZEquation() {
-	std::random_device rd;
-	std::mt19937 gen(rd());
-	std::uniform_real_distribution<> dis(0, 2.0*M_PI);
-	std::uniform_real_distribution<> r_i(-0.5, 0.5);
-
 	for (int i = 1; i <= R; i++) {
 		double ener[N];
 		double vortexNum[N];
 		mat theta;
 		initializeMatrix(theta, gen);        // initialize theta init
-		//printf("Initial theta values: \n");
-		//for (int i = 0; i < S; i++) {
-		//	for (int j = 0; j < S; j++) {
-		//		printf("%.5f ", theta[i][j]);
-		//	}
-		//	printf("\n");
-		//}
 
 		// Writing to file
 		stringstream thetaInitFilename;
 		thetaInitFilename << "CL_" << + CL << "/thetaInit_CL" << CL << "_N" << N << "_R" << i << ".txt";
 		outputMatToFile(theta, thetaInitFilename.str());
-		calcPhase(theta, ener, vortexNum, dis, gen, r_i);
-
-//		printf("Final theta values: \n");
-//		for (int i = 0; i < S; i++) {
-//			for (int j = 0; j < S; j++) {
-//				printf("%.5f ", theta[i][j]);
-//			}
-//			printf("\n");
-//		}
-
-//		printf("Energy values: \n");
-//		for (int i = 0; i < N; i++) {
-//			printf("%.5f ", ener[i] * S*S);
-//		}
-//		printf("\n");
-
-//		printf("Energy density values: \n");
-//		for (int i = 0; i < N; i++) {
-//			printf("%.5f ", ener[i]);
-//		}
+		calcPhase(theta, ener, vortexNum, gen);
 
 		stringstream thetaFinFilename;
 		thetaFinFilename << "CL_" << + CL << "/thetaFin_CL" << CL << "_N" << N << "_R" << i << ".txt";
@@ -185,9 +153,6 @@ void runKPZEquation() {
 
 int main() {
 	printf("Running compact KPZ: \n");
-
 	runKPZEquation();
-
 	return EXIT_SUCCESS;
-
 }

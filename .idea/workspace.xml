@@ -12,29 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a07e997-d327-4809-bb6e-3cbe50e6f38c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KPZ_Compact.exe" afterPath="$PROJECT_DIR$/KPZ_Compact.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Compact KPZ Data Analysis-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Compact KPZ Data Analysis-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/Energy_CL0.5_N100_R1.txt" afterPath="$PROJECT_DIR$/CL_0.5/Energy_CL0.5_N100_R1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/Energy_CL0.5_N100_R2.txt" afterPath="$PROJECT_DIR$/CL_0.5/Energy_CL0.5_N100_R2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/Energy_CL0.5_N100_R3.txt" afterPath="$PROJECT_DIR$/CL_0.5/Energy_CL0.5_N100_R3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/Energy_CL0.5_N100_R4.txt" afterPath="$PROJECT_DIR$/CL_0.5/Energy_CL0.5_N100_R4.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/Energy_CL0.5_N100_R5.txt" afterPath="$PROJECT_DIR$/CL_0.5/Energy_CL0.5_N100_R5.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/VortexNum_CL0.5_N100_R1.txt" afterPath="$PROJECT_DIR$/CL_0.5/VortexNum_CL0.5_N100_R1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/VortexNum_CL0.5_N100_R2.txt" afterPath="$PROJECT_DIR$/CL_0.5/VortexNum_CL0.5_N100_R2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/VortexNum_CL0.5_N100_R3.txt" afterPath="$PROJECT_DIR$/CL_0.5/VortexNum_CL0.5_N100_R3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/VortexNum_CL0.5_N100_R4.txt" afterPath="$PROJECT_DIR$/CL_0.5/VortexNum_CL0.5_N100_R4.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/VortexNum_CL0.5_N100_R5.txt" afterPath="$PROJECT_DIR$/CL_0.5/VortexNum_CL0.5_N100_R5.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/thetaFin_CL0.5_N100_R1.txt" afterPath="$PROJECT_DIR$/CL_0.5/thetaFin_CL0.5_N100_R1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/thetaFin_CL0.5_N100_R2.txt" afterPath="$PROJECT_DIR$/CL_0.5/thetaFin_CL0.5_N100_R2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/thetaFin_CL0.5_N100_R3.txt" afterPath="$PROJECT_DIR$/CL_0.5/thetaFin_CL0.5_N100_R3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/thetaFin_CL0.5_N100_R4.txt" afterPath="$PROJECT_DIR$/CL_0.5/thetaFin_CL0.5_N100_R4.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/thetaFin_CL0.5_N100_R5.txt" afterPath="$PROJECT_DIR$/CL_0.5/thetaFin_CL0.5_N100_R5.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/thetaInit_CL0.5_N100_R1.txt" afterPath="$PROJECT_DIR$/CL_0.5/thetaInit_CL0.5_N100_R1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/thetaInit_CL0.5_N100_R2.txt" afterPath="$PROJECT_DIR$/CL_0.5/thetaInit_CL0.5_N100_R2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/thetaInit_CL0.5_N100_R3.txt" afterPath="$PROJECT_DIR$/CL_0.5/thetaInit_CL0.5_N100_R3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/thetaInit_CL0.5_N100_R4.txt" afterPath="$PROJECT_DIR$/CL_0.5/thetaInit_CL0.5_N100_R4.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/thetaInit_CL0.5_N100_R5.txt" afterPath="$PROJECT_DIR$/CL_0.5/thetaInit_CL0.5_N100_R5.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Compact KPZ Data Analysis.ipynb" afterPath="$PROJECT_DIR$/Compact KPZ Data Analysis.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
@@ -69,8 +48,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1172">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="175">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="e#356#373#0" expanded="true" />
               </folding>
@@ -103,9 +82,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1090" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1942" />
+    <option name="height" value="1102" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -338,7 +318,7 @@
       <workItem from="1478714571088" duration="368000" />
       <workItem from="1479290356413" duration="9184000" />
       <workItem from="1479329609326" duration="633000" />
-      <workItem from="1479987345271" duration="12509000" />
+      <workItem from="1479987345271" duration="14448000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Adjusted the sign in the kpz equation&quot;">
       <created>1477311815809</created>
@@ -358,10 +338,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53549000" />
+    <option name="totallyTimeSpent" value="55488000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="950" y="0" width="980" height="1090" extended-state="0" />
+    <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36078006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -371,9 +351,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14735658" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14539401" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57817775" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16759157" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -650,8 +630,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1172">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="175">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#356#373#0" expanded="true" />
           </folding>
