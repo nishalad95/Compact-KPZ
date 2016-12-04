@@ -12,8 +12,491 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a07e997-d327-4809-bb6e-3cbe50e6f38c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1.5/Energy_CL1.5_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1.5/Energy_CL1.5_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1.5/Energy_CL1.5_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1.5/Energy_CL1.5_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1.5/Energy_CL1.5_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1.5/VortexNum_CL1.5_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1.5/VortexNum_CL1.5_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1.5/VortexNum_CL1.5_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1.5/VortexNum_CL1.5_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1.5/VortexNum_CL1.5_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1.5/thetaFin_CL1.5_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1.5/thetaFin_CL1.5_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1.5/thetaFin_CL1.5_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1.5/thetaFin_CL1.5_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1.5/thetaFin_CL1.5_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1.5/thetaInit_CL1.5_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1.5/thetaInit_CL1.5_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1.5/thetaInit_CL1.5_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1.5/thetaInit_CL1.5_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1.5/thetaInit_CL1.5_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1/Energy_CL1_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1/Energy_CL1_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1/Energy_CL1_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1/Energy_CL1_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1/Energy_CL1_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1/VortexNum_CL1_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1/VortexNum_CL1_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1/VortexNum_CL1_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1/VortexNum_CL1_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1/VortexNum_CL1_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1/thetaFin_CL1_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1/thetaFin_CL1_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1/thetaFin_CL1_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1/thetaFin_CL1_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1/thetaFin_CL1_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1/thetaInit_CL1_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1/thetaInit_CL1_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1/thetaInit_CL1_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1/thetaInit_CL1_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_1/thetaInit_CL1_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/Energy_CL2.5_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/Energy_CL2.5_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/Energy_CL2.5_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/Energy_CL2.5_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/Energy_CL2.5_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/Energy_CL2.5_N200_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/Energy_CL2.5_N200_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/Energy_CL2.5_N200_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/Energy_CL2.5_N200_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/Energy_CL2.5_N200_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/VortexNum_CL2.5_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/VortexNum_CL2.5_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/VortexNum_CL2.5_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/VortexNum_CL2.5_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/VortexNum_CL2.5_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/VortexNum_CL2.5_N200_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/VortexNum_CL2.5_N200_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/VortexNum_CL2.5_N200_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/VortexNum_CL2.5_N200_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/VortexNum_CL2.5_N200_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/thetaFin_CL2.5_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/thetaFin_CL2.5_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/thetaFin_CL2.5_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/thetaFin_CL2.5_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/thetaFin_CL2.5_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/thetaFin_CL2.5_N200_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/thetaFin_CL2.5_N200_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/thetaFin_CL2.5_N200_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/thetaFin_CL2.5_N200_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/thetaFin_CL2.5_N200_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/thetaInit_CL2.5_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/thetaInit_CL2.5_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/thetaInit_CL2.5_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/thetaInit_CL2.5_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/thetaInit_CL2.5_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/thetaInit_CL2.5_N200_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/thetaInit_CL2.5_N200_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/thetaInit_CL2.5_N200_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/thetaInit_CL2.5_N200_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2.5/thetaInit_CL2.5_N200_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2/Energy_CL2_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2/Energy_CL2_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2/Energy_CL2_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2/Energy_CL2_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2/Energy_CL2_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2/VortexNum_CL2_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2/VortexNum_CL2_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2/VortexNum_CL2_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2/VortexNum_CL2_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2/VortexNum_CL2_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2/thetaFin_CL2_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2/thetaFin_CL2_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2/thetaFin_CL2_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2/thetaFin_CL2_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2/thetaFin_CL2_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2/thetaInit_CL2_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2/thetaInit_CL2_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2/thetaInit_CL2_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2/thetaInit_CL2_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_2/thetaInit_CL2_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/Energy_CL3.5_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/Energy_CL3.5_N100_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/Energy_CL3.5_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/Energy_CL3.5_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/Energy_CL3.5_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/Energy_CL3.5_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/Energy_CL3.5_N100_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/Energy_CL3.5_N100_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/Energy_CL3.5_N100_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/Energy_CL3.5_N100_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/Energy_CL3.5_N200_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/Energy_CL3.5_N200_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/Energy_CL3.5_N200_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/Energy_CL3.5_N200_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/Energy_CL3.5_N200_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/Energy_CL3.5_N200_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/Energy_CL3.5_N200_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/Energy_CL3.5_N200_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/Energy_CL3.5_N200_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/Energy_CL3.5_N200_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N100_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N100_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N100_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N100_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N100_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N200_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N200_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N200_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N200_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N200_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N200_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N200_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N200_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N200_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N200_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaFin_CL3.5_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaFin_CL3.5_N100_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaFin_CL3.5_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaFin_CL3.5_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaFin_CL3.5_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaFin_CL3.5_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaFin_CL3.5_N100_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaFin_CL3.5_N100_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaFin_CL3.5_N100_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaFin_CL3.5_N100_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaFin_CL3.5_N200_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaFin_CL3.5_N200_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaFin_CL3.5_N200_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaFin_CL3.5_N200_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaFin_CL3.5_N200_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaFin_CL3.5_N200_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaFin_CL3.5_N200_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaFin_CL3.5_N200_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaFin_CL3.5_N200_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaFin_CL3.5_N200_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaInit_CL3.5_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaInit_CL3.5_N100_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaInit_CL3.5_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaInit_CL3.5_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaInit_CL3.5_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaInit_CL3.5_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaInit_CL3.5_N100_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaInit_CL3.5_N100_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaInit_CL3.5_N100_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaInit_CL3.5_N100_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaInit_CL3.5_N200_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaInit_CL3.5_N200_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaInit_CL3.5_N200_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaInit_CL3.5_N200_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaInit_CL3.5_N200_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaInit_CL3.5_N200_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaInit_CL3.5_N200_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaInit_CL3.5_N200_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaInit_CL3.5_N200_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3.5/thetaInit_CL3.5_N200_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/Energy_CL3_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/Energy_CL3_N100_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/Energy_CL3_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/Energy_CL3_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/Energy_CL3_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/Energy_CL3_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/Energy_CL3_N100_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/Energy_CL3_N100_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/Energy_CL3_N100_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/Energy_CL3_N100_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/Energy_CL3_N200_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/Energy_CL3_N200_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/Energy_CL3_N200_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/Energy_CL3_N200_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/Energy_CL3_N200_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/Energy_CL3_N200_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/Energy_CL3_N200_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/Energy_CL3_N200_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/Energy_CL3_N200_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/Energy_CL3_N200_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N100_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N100_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N100_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N100_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N100_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N200_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N200_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N200_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N200_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N200_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N200_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N200_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N200_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N200_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N200_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaFin_CL3_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaFin_CL3_N100_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaFin_CL3_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaFin_CL3_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaFin_CL3_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaFin_CL3_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaFin_CL3_N100_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaFin_CL3_N100_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaFin_CL3_N100_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaFin_CL3_N100_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaFin_CL3_N200_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaFin_CL3_N200_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaFin_CL3_N200_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaFin_CL3_N200_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaFin_CL3_N200_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaFin_CL3_N200_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaFin_CL3_N200_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaFin_CL3_N200_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaFin_CL3_N200_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaFin_CL3_N200_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaInit_CL3_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaInit_CL3_N100_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaInit_CL3_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaInit_CL3_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaInit_CL3_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaInit_CL3_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaInit_CL3_N100_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaInit_CL3_N100_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaInit_CL3_N100_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaInit_CL3_N100_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaInit_CL3_N200_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaInit_CL3_N200_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaInit_CL3_N200_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaInit_CL3_N200_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaInit_CL3_N200_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaInit_CL3_N200_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaInit_CL3_N200_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaInit_CL3_N200_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaInit_CL3_N200_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_3/thetaInit_CL3_N200_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/Energy_CL4.5_N300_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/Energy_CL4.5_N300_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/Energy_CL4.5_N300_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/Energy_CL4.5_N300_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/Energy_CL4.5_N300_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/Energy_CL4.5_N300_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/Energy_CL4.5_N300_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/Energy_CL4.5_N300_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/Energy_CL4.5_N300_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/Energy_CL4.5_N300_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N300_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N300_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N300_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N300_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N300_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N300_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N300_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N300_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N300_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N300_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/thetaFin_CL4.5_N300_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/thetaFin_CL4.5_N300_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/thetaFin_CL4.5_N300_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/thetaFin_CL4.5_N300_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/thetaFin_CL4.5_N300_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/thetaFin_CL4.5_N300_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/thetaFin_CL4.5_N300_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/thetaFin_CL4.5_N300_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/thetaFin_CL4.5_N300_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/thetaFin_CL4.5_N300_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/thetaInit_CL4.5_N300_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/thetaInit_CL4.5_N300_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/thetaInit_CL4.5_N300_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/thetaInit_CL4.5_N300_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/thetaInit_CL4.5_N300_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/thetaInit_CL4.5_N300_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/thetaInit_CL4.5_N300_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/thetaInit_CL4.5_N300_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/thetaInit_CL4.5_N300_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4.5/thetaInit_CL4.5_N300_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/Energy_CL4_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/Energy_CL4_N100_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/Energy_CL4_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/Energy_CL4_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/Energy_CL4_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/Energy_CL4_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/Energy_CL4_N100_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/Energy_CL4_N100_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/Energy_CL4_N100_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/Energy_CL4_N100_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/Energy_CL4_N300_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/Energy_CL4_N300_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/Energy_CL4_N300_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/Energy_CL4_N300_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/Energy_CL4_N300_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/Energy_CL4_N300_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/Energy_CL4_N300_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/Energy_CL4_N300_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/Energy_CL4_N300_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/Energy_CL4_N300_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N100_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N100_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N100_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N100_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N100_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N300_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N300_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N300_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N300_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N300_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N300_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N300_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N300_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N300_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N300_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaFin_CL4_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaFin_CL4_N100_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaFin_CL4_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaFin_CL4_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaFin_CL4_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaFin_CL4_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaFin_CL4_N100_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaFin_CL4_N100_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaFin_CL4_N100_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaFin_CL4_N100_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaFin_CL4_N300_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaFin_CL4_N300_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaFin_CL4_N300_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaFin_CL4_N300_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaFin_CL4_N300_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaFin_CL4_N300_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaFin_CL4_N300_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaFin_CL4_N300_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaFin_CL4_N300_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaFin_CL4_N300_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaInit_CL4_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaInit_CL4_N100_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaInit_CL4_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaInit_CL4_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaInit_CL4_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaInit_CL4_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaInit_CL4_N100_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaInit_CL4_N100_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaInit_CL4_N100_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaInit_CL4_N100_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaInit_CL4_N300_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaInit_CL4_N300_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaInit_CL4_N300_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaInit_CL4_N300_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaInit_CL4_N300_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaInit_CL4_N300_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaInit_CL4_N300_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaInit_CL4_N300_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaInit_CL4_N300_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_4/thetaInit_CL4_N300_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/Energy_CL5_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/Energy_CL5_N100_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/Energy_CL5_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/Energy_CL5_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/Energy_CL5_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/Energy_CL5_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/Energy_CL5_N100_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/Energy_CL5_N100_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/Energy_CL5_N100_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/Energy_CL5_N100_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/VortexNum_CL5_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/VortexNum_CL5_N100_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/VortexNum_CL5_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/VortexNum_CL5_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/VortexNum_CL5_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/VortexNum_CL5_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/VortexNum_CL5_N100_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/VortexNum_CL5_N100_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/VortexNum_CL5_N100_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/VortexNum_CL5_N100_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/thetaFin_CL5_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/thetaFin_CL5_N100_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/thetaFin_CL5_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/thetaFin_CL5_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/thetaFin_CL5_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/thetaFin_CL5_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/thetaFin_CL5_N100_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/thetaFin_CL5_N100_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/thetaFin_CL5_N100_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/thetaFin_CL5_N100_R9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/thetaInit_CL5_N100_R1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/thetaInit_CL5_N100_R10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/thetaInit_CL5_N100_R2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/thetaInit_CL5_N100_R3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/thetaInit_CL5_N100_R4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/thetaInit_CL5_N100_R5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/thetaInit_CL5_N100_R6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/thetaInit_CL5_N100_R7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/thetaInit_CL5_N100_R8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CL_5/thetaInit_CL5_N100_R9.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KPZ_Compact.exe" afterPath="$PROJECT_DIR$/KPZ_Compact.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/KPZ_Compact.iml" afterPath="$PROJECT_DIR$/.idea/KPZ_Compact.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Compact KPZ Data Analysis-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Compact KPZ Data Analysis-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/VortexNum_CL0.5_N100_R1.txt" afterPath="$PROJECT_DIR$/CL_0.5/VortexNum_CL0.5_N100_R1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/VortexNum_CL0.5_N100_R2.txt" afterPath="$PROJECT_DIR$/CL_0.5/VortexNum_CL0.5_N100_R2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/VortexNum_CL0.5_N100_R3.txt" afterPath="$PROJECT_DIR$/CL_0.5/VortexNum_CL0.5_N100_R3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/VortexNum_CL0.5_N100_R4.txt" afterPath="$PROJECT_DIR$/CL_0.5/VortexNum_CL0.5_N100_R4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0.5/VortexNum_CL0.5_N100_R5.txt" afterPath="$PROJECT_DIR$/CL_0.5/VortexNum_CL0.5_N100_R5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_0/VortexNum_CL0_N100_R1.txt" afterPath="$PROJECT_DIR$/CL_0/VortexNum_CL0_N100_R1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_1.5/VortexNum_CL1.5_N150_R1.txt" afterPath="$PROJECT_DIR$/CL_1.5/VortexNum_CL1.5_N150_R1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_1.5/VortexNum_CL1.5_N150_R2.txt" afterPath="$PROJECT_DIR$/CL_1.5/VortexNum_CL1.5_N150_R2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_1.5/VortexNum_CL1.5_N150_R3.txt" afterPath="$PROJECT_DIR$/CL_1.5/VortexNum_CL1.5_N150_R3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_1.5/VortexNum_CL1.5_N150_R4.txt" afterPath="$PROJECT_DIR$/CL_1.5/VortexNum_CL1.5_N150_R4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_1.5/VortexNum_CL1.5_N150_R5.txt" afterPath="$PROJECT_DIR$/CL_1.5/VortexNum_CL1.5_N150_R5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_1/VortexNum_CL1_N150_R1.txt" afterPath="$PROJECT_DIR$/CL_1/VortexNum_CL1_N150_R1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_1/VortexNum_CL1_N150_R2.txt" afterPath="$PROJECT_DIR$/CL_1/VortexNum_CL1_N150_R2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_1/VortexNum_CL1_N150_R3.txt" afterPath="$PROJECT_DIR$/CL_1/VortexNum_CL1_N150_R3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_1/VortexNum_CL1_N150_R4.txt" afterPath="$PROJECT_DIR$/CL_1/VortexNum_CL1_N150_R4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_1/VortexNum_CL1_N150_R5.txt" afterPath="$PROJECT_DIR$/CL_1/VortexNum_CL1_N150_R5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_2/VortexNum_CL2_N200_R1.txt" afterPath="$PROJECT_DIR$/CL_2/VortexNum_CL2_N200_R1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_2/VortexNum_CL2_N200_R2.txt" afterPath="$PROJECT_DIR$/CL_2/VortexNum_CL2_N200_R2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_2/VortexNum_CL2_N200_R3.txt" afterPath="$PROJECT_DIR$/CL_2/VortexNum_CL2_N200_R3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_2/VortexNum_CL2_N200_R4.txt" afterPath="$PROJECT_DIR$/CL_2/VortexNum_CL2_N200_R4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_2/VortexNum_CL2_N200_R5.txt" afterPath="$PROJECT_DIR$/CL_2/VortexNum_CL2_N200_R5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N250_R1.txt" afterPath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N250_R1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N250_R10.txt" afterPath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N250_R10.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N250_R2.txt" afterPath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N250_R2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N250_R3.txt" afterPath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N250_R3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N250_R4.txt" afterPath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N250_R4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N250_R5.txt" afterPath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N250_R5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N250_R6.txt" afterPath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N250_R6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N250_R7.txt" afterPath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N250_R7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N250_R8.txt" afterPath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N250_R8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N250_R9.txt" afterPath="$PROJECT_DIR$/CL_3.5/VortexNum_CL3.5_N250_R9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N250_R1.txt" afterPath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N250_R1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N250_R10.txt" afterPath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N250_R10.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N250_R2.txt" afterPath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N250_R2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N250_R3.txt" afterPath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N250_R3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N250_R4.txt" afterPath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N250_R4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N250_R5.txt" afterPath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N250_R5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N250_R6.txt" afterPath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N250_R6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N250_R7.txt" afterPath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N250_R7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N250_R8.txt" afterPath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N250_R8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N250_R9.txt" afterPath="$PROJECT_DIR$/CL_3/VortexNum_CL3_N250_R9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N100_R1.txt" afterPath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N100_R1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N100_R10.txt" afterPath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N100_R10.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N100_R2.txt" afterPath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N100_R2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N100_R3.txt" afterPath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N100_R3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N100_R4.txt" afterPath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N100_R4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N100_R5.txt" afterPath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N100_R5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N100_R6.txt" afterPath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N100_R6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N100_R7.txt" afterPath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N100_R7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N100_R8.txt" afterPath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N100_R8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N100_R9.txt" afterPath="$PROJECT_DIR$/CL_4.5/VortexNum_CL4.5_N100_R9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N150_R1.txt" afterPath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N150_R1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N150_R10.txt" afterPath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N150_R10.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N150_R2.txt" afterPath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N150_R2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N150_R3.txt" afterPath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N150_R3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N150_R4.txt" afterPath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N150_R4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N150_R5.txt" afterPath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N150_R5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N150_R6.txt" afterPath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N150_R6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N150_R7.txt" afterPath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N150_R7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N150_R8.txt" afterPath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N150_R8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N150_R9.txt" afterPath="$PROJECT_DIR$/CL_4/VortexNum_CL4_N150_R9.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Compact KPZ Data Analysis.ipynb" afterPath="$PROJECT_DIR$/Compact KPZ Data Analysis.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
@@ -34,22 +517,12 @@
     <favorites_list name="KPZ_Compact" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="336">
+              <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
               <folding>
                 <element signature="e#356#373#0" expanded="true" />
               </folding>
@@ -81,11 +554,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1942" />
-    <option name="height" value="1102" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -122,6 +594,7 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RunManager" selected="Application.Build All">
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KPZ_Compact" TARGET_NAME="KPZ_Compact" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
@@ -318,7 +791,9 @@
       <workItem from="1478714571088" duration="368000" />
       <workItem from="1479290356413" duration="9184000" />
       <workItem from="1479329609326" duration="633000" />
-      <workItem from="1479987345271" duration="14448000" />
+      <workItem from="1479987345271" duration="16595000" />
+      <workItem from="1480685245307" duration="3924000" />
+      <workItem from="1480852951732" duration="5446000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Adjusted the sign in the kpz equation&quot;">
       <created>1477311815809</created>
@@ -338,22 +813,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55488000" />
+    <option name="totallyTimeSpent" value="67005000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36078006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20472442" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19607843" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14539401" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15789473" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16759157" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20243363" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -361,8 +835,29 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20421754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14539401" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20243363" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36078006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -380,83 +875,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;Adjusted the sign in the kpz equation&quot;" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="500">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
           <folding>
             <element signature="e#356#373#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/energy.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/energy.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#356#373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/energy.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/energy.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="125">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -474,7 +912,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#356#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/energy.h" />
+    <entry file="file://$PROJECT_DIR$/energy.cpp" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#356#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/energy.h" />
+    <entry file="file://$PROJECT_DIR$/energy.cpp" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -492,7 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -510,7 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -528,7 +1001,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -546,7 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -564,7 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -582,7 +1052,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#356#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -600,38 +1086,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/energy.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="43" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/energy.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/energy.cpp" />
+    <entry file="file://$PROJECT_DIR$/energy.h" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="165">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/include/math.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="176" column="25" selection-start-line="176" selection-start-column="25" selection-end-line="176" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="336">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
           <folding>
             <element signature="e#356#373#0" expanded="true" />
           </folding>

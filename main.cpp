@@ -27,10 +27,10 @@ double Dx = 1.0;
 double Dy = 1.0;
 double Lx = 0.0;
 double Ly = 0.0;
-const int N = 250;					// monte-carlo iterations
-const int R = 10;					// number of stochastic realisations
+const int N = 15;					// monte-carlo iterations
+const int R = 100;					// number of stochastic realisations
 double dt = 0.05;					// time increment
-const double CL = 3.0;				// "temperature" of the system
+const double CL = 7.0;				// "temperature" of the system
 
 random_device rd;
 mt19937 gen(rd());
@@ -66,12 +66,24 @@ double calcEnergy(mat &theta) {
 
 double calcNumVortices(mat &theta) {
 	double num = 0.0;
+	double diff[4];
+
 	for (int j = 0; j < S; j++) {
 		for (int k = 0; k < S; k++) {
-			num += (theta[j][k] - theta[pmod(j-1)][k])
-						+ (theta[pmod(j-1)][pmod(k)] - theta[pmod(j-1)][pmod(k-1)])
-						+ (theta[pmod(j-1)][pmod(k-1)] - theta[pmod(j)][pmod(k-1)])
-						+ (theta[pmod(j)][pmod(k-1)] - theta[j][k]);
+
+			diff[0] = theta[j][k] - theta[pmod(j-1)][k];
+			diff[1] = theta[pmod(j-1)][pmod(k)] - theta[pmod(j-1)][pmod(k-1)];
+			diff[2] = theta[pmod(j-1)][pmod(k-1)] - theta[pmod(j)][pmod(k-1)];
+			diff[3] = theta[pmod(j)][pmod(k-1)] - theta[j][k];
+
+			for (int l = 0; l < 4; l++) {
+				if (diff[l] > M_PI) {
+					diff[l] -= 2*M_PI;
+				} else if (diff[l] < -M_PI) {
+					diff[l] += 2*M_PI;
+				}
+			}
+			num += fabs(diff[0] + diff[1] + diff[2] + diff[3]);
 		}
 	}
 	return num;
