@@ -22,22 +22,22 @@
 
 using namespace std;
 
-const int S = 64;
-double Dx = 1.0;
+const int S = 128;					// lattice size
+double Dx = 1.0;					// diffusion
 double Dy = 1.0;
-double Lx = 0.0;
-double Ly = 0.0;
-const int N = 15;					// monte-carlo iterations
-const int R = 100;					// number of stochastic realisations
+double Lx = -0.5;					// non-linearity
+double Ly = 0.75;
+const int N = 800;					// monte-carlo iterations
+const int R = 50;					// stochastic realisations
 double dt = 0.05;					// time increment
-const double CL = 7.0;				// "temperature" of the system
+//double CL = 3.8;					// "temperature" of the system
 
 random_device rd;
-mt19937 gen(rd());
+mt19937 gen(rd());					// twister to generate random values
 
 typedef std::array<std::array<double,S>,S> mat;		// matrix definition
 
-void initializeMatrix(mat &theta, mt19937 &gen, bool noise = false) {
+void initializeMatrix(mat &theta, mt19937 &gen, double CL, bool noise = false) {
 	uniform_real_distribution<> dis(0,2*M_PI);
 	uniform_real_distribution<> disNoise(-0.5,0.5);
 	for(int i = 0; i < S; i++) {
@@ -89,10 +89,10 @@ double calcNumVortices(mat &theta) {
 	return num;
 }
 
-void calcPhase(mat &theta, double *ener, double *vortexNum, mt19937 &gen) {
+void calcPhase(mat &theta, double *ener, double *vortexNum, mt19937 &gen, double CL) {
 	mat noise, current;
 	for (int i=0; i<N; i++) {
-		initializeMatrix(noise, gen, true);
+		initializeMatrix(noise, gen, CL, true);
 		for (int j = 0; j < S; j++) {
 			for (int k = 0; k < S; k++) {
 				double XPlus = theta[j][k] - theta[j][pmod(k+1)];
@@ -107,24 +107,15 @@ void calcPhase(mat &theta, double *ener, double *vortexNum, mt19937 &gen) {
 
 				current[j][k] = theta[j][k] - dt*(diffX + diffY + nonLinX + nonLinY + noise[j][k] - Lx - Ly);
 				current[j][k] = fmod(current[j][k],2.0*M_PI);
+				if (current[j][k] < 0) {
+					current[j][k] += 2.0*M_PI;
+				}
 			}
 		}
 		ener[i] = calcEnergy(current) / (S*S*1.0);
 		vortexNum[i] = calcNumVortices(current) / (2.0*M_PI);
 		std::swap(current, theta);
 	}
-}
-
-// for matrices
-void outputMatToFile(mat &theta, string filename) {
-	ofstream energyVals(filename); // opening output stream for file
-	if (energyVals.is_open()) {
-		for (int i=0; i<S; i++) {
-			for (int j=0; j<S; j++) {
-				energyVals << theta[i][j] << " "; //contiguous memory output
-			}
-		}
-	} else { printf("File could not be opened.\n"); }
 }
 
 // for arrays
@@ -134,37 +125,39 @@ void outputToFile(double arr[], string filename) {
 		for (int i=0; i<N; i++) {
 			energyVals << arr[i] << " ";
 		}
-	} else { printf("File could not be opened.\n"); }
+	} else { printf("File could not be opened or not found.\n"); }
 }
 
 
-void runKPZEquation() {
+void runKPZEquation(double CL) {
 	for (int i = 1; i <= R; i++) {
 		double ener[N];
 		double vortexNum[N];
 		mat theta;
-		initializeMatrix(theta, gen);        // initialize theta init
+		initializeMatrix(theta, gen, CL);
+
+		calcPhase(theta, ener, vortexNum, gen, CL);
 
 		// Writing to file
-		stringstream thetaInitFilename;
-		thetaInitFilename << "CL_" << + CL << "/thetaInit_CL" << CL << "_N" << N << "_R" << i << ".txt";
-		outputMatToFile(theta, thetaInitFilename.str());
-		calcPhase(theta, ener, vortexNum, gen);
-
-		stringstream thetaFinFilename;
-		thetaFinFilename << "CL_" << + CL << "/thetaFin_CL" << CL << "_N" << N << "_R" << i << ".txt";
-		outputMatToFile(theta, thetaFinFilename.str());
 		stringstream energyValFilename;
-		energyValFilename << "CL_" << + CL << "/Energy_CL" << CL << "_N" << N << "_R" << i << ".txt";
+		energyValFilename << "data/S=128/Lx=" <<Lx<< ",Ly=" <<Ly<< "/CL_"
+						  << CL << "/Energy_CL" << CL << "_N" << N << "_R" << i << ".txt";
 		outputToFile(ener, energyValFilename.str());
 		stringstream vortexNumFilename;
-		vortexNumFilename << "CL_" << + CL <<  "/VortexNum_CL" << CL << "_N" << N << "_R" << i << ".txt";
+		vortexNumFilename << "data/S=128/Lx=" <<Lx<< ",Ly=" <<Ly<< "/CL_"
+						  << CL << "/VortexNum_CL" << CL << "_N" << N << "_R" << i << ".txt";
 		outputToFile(vortexNum, vortexNumFilename.str());
 	}
 }
 
 int main() {
 	printf("Running compact KPZ: \n");
-	runKPZEquation();
+	double CL[11] = {3.1, 3.15, 3.2, 3.25, 3.3, 3.35, 3.4, 3.45, 3.55, 3.6, 3.65};
+	for (int a=0; a<11; a++) {
+		runKPZEquation(CL[a]);
+		printf("Completed simulation for %f", CL[a]);
+		printf("\n");
+	}
+
 	return EXIT_SUCCESS;
 }
