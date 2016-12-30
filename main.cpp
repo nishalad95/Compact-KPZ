@@ -6,8 +6,6 @@
  * described by the compact KPZ equation & periodic boundary conditions
  */
 
-// original compact eq - 4 nearest neighbours
-
 #define _USE_MATH_DEFINES
 
 #include <math.h>
@@ -27,7 +25,6 @@ double Dx = 1.0;					// diffusion
 double Dy = 1.0;
 double Lx = 0.0;					// non-linearity
 double Ly = 0.0;
-const int R = 1;					// stochastic realisations
 double dt = 0.05;					// time increment
 const double tolerance = 1e-5;		//convergence threshold
 
@@ -132,6 +129,13 @@ void outputToFile(int count, vec &array, string filename) {
 
 
 void runKPZEquation(double CL) {
+	int R;
+	if (CL == 0.0) { R = 1; }
+	else if (CL <= 2.5) { R = 10; }
+	else if (CL <= 3.0) { R = 30; }
+	else if (CL <= 4.0) { R = 50; }
+	else if (CL <= 5.5) { R = 80; }
+	else { R = 100; }
 	for (int i = 1; i <= R; i++) {
 		vec ener;
 		vec vortexNum;
@@ -153,8 +157,9 @@ void runKPZEquation(double CL) {
 
 int main() {
 	printf("Running compact KPZ: \n");
-	double CL[14] = {0.0};
-	for (int a=0; a<1; a++) {
+	double CL[30] = {0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 2.95, 3.0, 3.05, 3.1, 3.15, 3.2, 3.25,
+					 3.3, 3.35, 3.4, 3.45, 3.5, 3.55, 3.6, 3.65, 3.7, 3.75, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0};
+	for (int a=0; a<30; a++) {
 		runKPZEquation(CL[a]);
 		printf("Completed simulation for %f", CL[a]);
 		printf("\n");
