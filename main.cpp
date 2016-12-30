@@ -25,12 +25,12 @@ using namespace std;
 const int S = 128;					// lattice size
 double Dx = 1.0;					// diffusion
 double Dy = 1.0;
-double Lx = -0.5;					// non-linearity
-double Ly = 0.75;
-const int N = 800;					// monte-carlo iterations
-const int R = 50;					// stochastic realisations
+double Lx = 0.0;					// non-linearity
+double Ly = 0.0;
+const int N = 4000;					// monte-carlo iterations
+const int R = 30;					// stochastic realisations
 double dt = 0.05;					// time increment
-//double CL = 3.8;					// "temperature" of the system
+//double CL = 1.5;					// "temperature" of the system
 
 random_device rd;
 mt19937 gen(rd());					// twister to generate random values
@@ -140,20 +140,21 @@ void runKPZEquation(double CL) {
 
 		// Writing to file
 		stringstream energyValFilename;
-		energyValFilename << "data/S=128/Lx=" <<Lx<< ",Ly=" <<Ly<< "/CL_"
+		energyValFilename << "data/S=" << S << "/Lx=" <<Lx<< ",Ly=" <<Ly<< "/CL_"
 						  << CL << "/Energy_CL" << CL << "_N" << N << "_R" << i << ".txt";
 		outputToFile(ener, energyValFilename.str());
 		stringstream vortexNumFilename;
-		vortexNumFilename << "data/S=128/Lx=" <<Lx<< ",Ly=" <<Ly<< "/CL_"
+		vortexNumFilename << "data/S=" << S << "/Lx=" <<Lx<< ",Ly=" <<Ly<< "/CL_"
 						  << CL << "/VortexNum_CL" << CL << "_N" << N << "_R" << i << ".txt";
 		outputToFile(vortexNum, vortexNumFilename.str());
+		printf("Completed R = %d \n", i);
 	}
 }
 
 int main() {
 	printf("Running compact KPZ: \n");
-	double CL[11] = {3.1, 3.15, 3.2, 3.25, 3.3, 3.35, 3.4, 3.45, 3.55, 3.6, 3.65};
-	for (int a=0; a<11; a++) {
+	double CL[14] = {2.0, 2.5, 3.0};
+	for (int a=0; a<3; a++) {
 		runKPZEquation(CL[a]);
 		printf("Completed simulation for %f", CL[a]);
 		printf("\n");
