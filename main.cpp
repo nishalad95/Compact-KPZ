@@ -20,7 +20,7 @@
 
 using namespace std;
 
-const int S = 64;					// lattice size
+const int S = 256;					// lattice size
 double Dx = 1.0;					// diffusion
 double Dy = 1.0;
 double Lx = 0.0;					// non-linearity
