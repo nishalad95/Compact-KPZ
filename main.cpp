@@ -151,7 +151,6 @@ void runKPZEquation(double CL) {
 		vortexNumFilename << "data/S=" << S << "/Lx=" <<Lx<< ",Ly=" <<Ly<< "/CL_"
 						  << CL << "/VortexNum_CL" << CL << "_R" << i << ".txt";
 		outputToFile(count, vortexNum, vortexNumFilename.str());
-		printf("Completed R = %d \n", i);
 	}
 }
 
