@@ -30,7 +30,6 @@ double Ly = 0.0;
 const int N = 4000;					// monte-carlo iterations
 const int R = 30;					// stochastic realisations
 double dt = 0.05;					// time increment
-//double CL = 1.5;					// "temperature" of the system
 
 random_device rd;
 mt19937 gen(rd());					// twister to generate random values
