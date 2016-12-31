@@ -20,13 +20,13 @@
 
 using namespace std;
 
-const int S = 256;					// lattice size
+const int S = 128;					// lattice size
 double Dx = 1.0;					// diffusion
 double Dy = 1.0;
 double Lx = 0.0;					// non-linearity
 double Ly = 0.0;
 double dt = 0.05;					// time increment
-const double tolerance = 1e-5;		//convergence threshold
+int N = 3000						// number of iterations
 
 random_device rd;
 mt19937 gen(rd());					// twister to generate random values
@@ -84,11 +84,9 @@ double calcNumVortices(mat &theta) {
 	return num;
 }
 
-int calcPhase(mat &theta, vec &ener, vec &vortexNum, mt19937 &gen, double CL) {
+void calcPhase(mat &theta, double *ener, double *vortexNum, mt19937 &gen, double CL) {
 	mat noise, current;
-	double diff = 100.0;
-	int i = 0;
-	while (diff > tolerance) {
+	for (int i=0; i<N; i++) {
 		initializeMatrix(noise, gen, CL, true);
 		for (int j = 0; j < S; j++) {
 			for (int k = 0; k < S; k++) {
@@ -107,21 +105,16 @@ int calcPhase(mat &theta, vec &ener, vec &vortexNum, mt19937 &gen, double CL) {
 				if (current[j][k] < 0) { current[j][k] += 2.0*M_PI; }
 			}
 		}
-		double energyDensity = calcEnergy(current) / (S*S*1.0);
-		double numVortices = calcNumVortices(current) / (2.0*M_PI);
-		ener.push_back(energyDensity);
-		vortexNum.push_back(numVortices);
-		if (i != 0) { diff = fabs(ener[i] - ener[i-1]); }
-		i++;
+		ener[i] = calcEnergy(current) / (S*S*1.0);
+		vortexNum[i] = calcNumVortices(current) / (2.0*M_PI);
 		std::swap(current, theta);
 	}
-	return i;
 }
 
-void outputToFile(int count, vec &array, string filename) {
+void outputToFile(int count, double *array, string filename) {
 	ofstream energyVals(filename); // opening output stream for file
 	if (energyVals.is_open()) {
-		for (int i=0; i<count; i++) {
+		for (int i=0; i<len(array); i++) {
 			energyVals << array[i] << " ";
 		}
 	} else { printf("File could not be opened or not found.\n"); }
@@ -137,28 +130,29 @@ void runKPZEquation(double CL) {
 	else if (CL <= 5.5) { R = 80; }
 	else { R = 100; }
 	for (int i = 1; i <= R; i++) {
-		vec ener;
-		vec vortexNum;
+		double ener[N];
+		double vortexNum[N];
 		mat theta;
 		initializeMatrix(theta, gen, CL);
-		int count = calcPhase(theta, ener, vortexNum, gen, CL);
-		// Writing to file
+		calcPhase(theta, ener, vortexNum, gen, CL);
 		stringstream energyValFilename;
 		energyValFilename << "data/S=" << S << "/Lx=" <<Lx<< ",Ly=" <<Ly<< "/CL_"
 						  << CL << "/Energy_CL" << CL << "_R" << i << ".txt";
-		outputToFile(count, ener, energyValFilename.str());
+		outputToFile(ener, energyValFilename.str());
 		stringstream vortexNumFilename;
 		vortexNumFilename << "data/S=" << S << "/Lx=" <<Lx<< ",Ly=" <<Ly<< "/CL_"
 						  << CL << "/VortexNum_CL" << CL << "_R" << i << ".txt";
-		outputToFile(count, vortexNum, vortexNumFilename.str());
+		outputToFile(vortexNum, vortexNumFilename.str());
 	}
 }
 
 int main() {
 	printf("Running compact KPZ: \n");
-	double CL[30] = {0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 2.95, 3.0, 3.05, 3.1, 3.15, 3.2, 3.25,
-					 3.3, 3.35, 3.4, 3.45, 3.5, 3.55, 3.6, 3.65, 3.7, 3.75, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0};
-	for (int a=0; a<30; a++) {
+	double CL[30] = {0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 2.95, 3.0, 3.05,
+	3.1, 3.15, 3.2, 3.25, 3.3, 3.35, 3.4, 3.45, 3.5, 3.55, 3.6, 3.65,
+	3.7, 3.75, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0};
+
+	for (int a=0; a<1; a++) {
 		runKPZEquation(CL[a]);
 		printf("Completed simulation for %f", CL[a]);
 		printf("\n");
