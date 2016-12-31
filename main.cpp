@@ -26,7 +26,7 @@ double Dy = 1.0;
 double Lx = 0.0;					// non-linearity
 double Ly = 0.0;
 double dt = 0.05;					// time increment
-int N = 3000						// number of iterations
+int N = 3000;						// number of iterations
 
 random_device rd;
 mt19937 gen(rd());					// twister to generate random values
@@ -111,10 +111,10 @@ void calcPhase(mat &theta, double *ener, double *vortexNum, mt19937 &gen, double
 	}
 }
 
-void outputToFile(int count, double *array, string filename) {
+void outputToFile(double *array, string filename) {
 	ofstream energyVals(filename); // opening output stream for file
 	if (energyVals.is_open()) {
-		for (int i=0; i<len(array); i++) {
+		for (int i=0; i<N; i++) {
 			energyVals << array[i] << " ";
 		}
 	} else { printf("File could not be opened or not found.\n"); }
